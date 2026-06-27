@@ -4,7 +4,7 @@ An open-source Minecraft Nether navigation bot that automatically locates **Bast
 
 Built using **Mineflayer** and **Baritone (ashfinder)**.
 
-<p align="center"> <img src="Assets/HellBot.gif" width="800"></p>
+<p align="center"> <video src="Assets/HellBot.mp4" controls autoplay loop muted width="100%"></video></p>
 
 ---
 
