@@ -1,4 +1,4 @@
-# Hellbot
+# HellBot
 
 An open-source Minecraft Nether navigation bot that automatically locates **Bastion Remnants** and **Nether Fortresses**, pathfinds through real Nether terrain, builds bridges across lava when necessary, and leaves a visible **magenta carpet trail** for players to follow.
 
@@ -14,7 +14,7 @@ Check out how it works (the GIF may take a moment to load...):
 
 Finding structures in the Nether can involve thousands of blocks of travel across difficult terrain.
 
-Hellbot automates the entire process by:
+HellBot automates the entire process by:
 
 - Locating the nearest Bastion Remnant or Nether Fortress using Minecraft's `/locate` command.
 - Teleporting to the requesting player.
@@ -23,7 +23,7 @@ Hellbot automates the entire process by:
 - Leaving a continuous magenta carpet trail using `block_display` entities.
 - Providing simple chat commands for navigation and management.
 
-Unlike coordinate-only tools, Hellbot performs real pathfinding through the world, navigating cliffs, lava lakes, and natural terrain while continuously updating its route.
+Unlike coordinate-only tools, HellBot performs real pathfinding through the world, navigating cliffs, lava lakes, and natural terrain while continuously updating its route.
 
 ---
 
@@ -56,8 +56,8 @@ Unlike coordinate-only tools, Hellbot performs real pathfinding through the worl
 Clone the repository and install the required dependencies.
 
 ```bash
-git clone https://github.com/pragyaangaur/Hellbot.git
-cd Hellbot
+git clone https://github.com/pragyaangaur/HellBot.git
+cd HellBot
 npm install
 ```
 
@@ -108,7 +108,7 @@ The bot will automatically configure the required gamerules before beginning nav
 ## How It Works
 
 1. A player requests a destination through chat.
-2. Hellbot teleports to the player's position.
+2. HellBot teleports to the player's position.
 3. Minecraft's `/locate` command finds the nearest structure.
 4. Baritone computes a traversable path through the Nether.
 5. Netherrack is automatically placed whenever bridges are needed.
@@ -119,7 +119,7 @@ The bot will automatically configure the required gamerules before beginning nav
 
 ## Current Limitations
 
-Hellbot is still under active development, and several improvements are planned:
+HellBot is still under active development, and several improvements are planned:
 
 - Proper dimension checking before navigation begins
 - Better handling of unloaded chunks
@@ -127,7 +127,7 @@ Hellbot is still under active development, and several improvements are planned:
 - Queueing multiple player navigation requests
 - Support for additional Nether structures
 - Smarter recovery from impossible paths
-- Chat spam with commands
+- Reduce chat being spammed with commands
 
 If you'd like to contribute to any of these areas, pull requests are always welcome.
 
