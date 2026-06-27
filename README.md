@@ -130,17 +130,3 @@ HellBot is still under active development, and several improvements are planned:
 - Reduce chat being spammed with commands
 
 If you'd like to contribute to any of these areas, pull requests are always welcome.
-
----
-
-## Contributing
-
-Bug reports, feature requests, and pull requests are encouraged.
-
-Whether it's improving the pathfinding, adding support for new structures, fixing edge cases, or making the bot more robust, contributions of all sizes are appreciated.
-
----
-
-## License
-
-This project is licensed under the MIT License. See `LICENSE.md` for more information.
